@@ -20,22 +20,22 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@id/pokemon_image"
-        app:layout_constraintTop_toTopOf="@id/pokemon_image"
+        android:text="@string/name_placeholder"
+        android:textAppearance="@style/PokemonNameStyle"
         app:layout_constraintEnd_toEndOf="parent"
-        android:text="Name" /> <!-- Placeholder text -->
+        app:layout_constraintStart_toEndOf="@id/pokemon_image"
+        app:layout_constraintTop_toTopOf="@id/pokemon_image" /> <!-- Placeholder text -->
 
     <TextView
         android:id="@+id/pokemon_type"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@id/pokemon_name"
-        app:layout_constraintTop_toBottomOf="@id/pokemon_name"
+        android:layout_marginStart="16dp"
+        android:text="@string/type_placeholder"
+        android:textAppearance="@style/PokemonTypeStyle"
         app:layout_constraintEnd_toEndOf="@id/pokemon_name"
-        android:text="Type" />
+        app:layout_constraintStart_toStartOf="@id/pokemon_name"
+        app:layout_constraintTop_toBottomOf="@id/pokemon_name" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

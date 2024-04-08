@@ -1,4 +1,4 @@
-package com.example.pokescroll
+package com.example.pokescrollv2
 
 data class Pokemon (
     val name: String,

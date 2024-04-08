@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">PokeScroll</string>
+    <string name="app_name">PokeScrollV2</string>
+    <string name="name_placeholder">Name</string>
+    <string name="type_placeholder">Type</string>
 </resources>

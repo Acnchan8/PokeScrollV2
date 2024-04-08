@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pokescroll"
+    namespace = "com.example.pokescrollv2"
     compileSdk = 34
 
     defaultConfig {

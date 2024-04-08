@@ -1,4 +1,4 @@
-package com.example.pokescroll
+package com.example.pokescrollv2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

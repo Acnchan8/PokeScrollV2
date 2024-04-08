@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PokeScroll"
+rootProject.name = "PokeScrollV2"
 include(":app")
  

@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.PokeScroll" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.PokeScrollV2" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.PokeScroll" parent="Base.Theme.PokeScroll" />
+    <style name="PokemonNameStyle">
+        <item name="android:fontFamily">@font/noto_sans_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/pokemonNameColor</item>
+    </style>
+
+    <style name="PokemonTypeStyle">
+        <item name="android:fontFamily">@font/noto_sans</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/pokemonTypeColor</item>
+    </style>
+
 </resources>
